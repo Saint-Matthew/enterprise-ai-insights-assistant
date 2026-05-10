@@ -5,22 +5,46 @@ An AI powered enterprise intelligence platform designed for UK businesses to gen
 This project combines enterprise business intelligence, predictive AI systems, forecasting analytics, and simulated AI assistant capabilities into a modern enterprise analytics platform.
 
 ---
-
 # Dashboard Preview
 
 ## Executive AI Dashboard
 
+Interactive enterprise intelligence dashboard with AI powered KPI monitoring, customer analytics, operational insights, and predictive business intelligence.
+
 ![Dashboard](screenshots/dashboard.png)
+
+---
 
 ## Enterprise Analytics
 
+Advanced enterprise analytics visualizations including customer segmentation, sales conversion analysis, operational efficiency metrics, and employee productivity insights.
+
 ![Analytics](screenshots/analytics.png)
+
+---
 
 ## AI Forecasting Engine
 
+Machine learning powered revenue forecasting engine using predictive analytics and linear regression models to estimate future business performance trends.
+
 ![Forecasting](screenshots/forecasting.png)
 
+---
+
+## Enterprise AI Assistant
+
+Interactive enterprise assistant capable of answering executive business intelligence questions based on enterprise datasets and operational metrics.
+
+![Assistant](screenshots/assistant.png)
+
+---
+
 ## OpenAI Executive Insights
+
+Integrated OpenAI powered executive reporting system capable of generating strategic business recommendations, executive summaries, growth opportunities, and enterprise risk analysis.
+
+Note:
+The OpenAI integration is optional and requires a valid OpenAI API key configured inside a local `.env` file.
 
 ![OpenAI](screenshots/openai.png)
 

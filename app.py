@@ -8,6 +8,12 @@ import pandas as pd
 import plotly.express as px
 import sqlite3
 
+from sklearn.linear_model import LinearRegression
+
+from main import (
+    predict_revenue,
+    accuracy
+)
 
 # -----------------------------------
 # LOAD ENVIRONMENT VARIABLES
@@ -15,17 +21,14 @@ import sqlite3
 
 load_dotenv()
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)
+api_key = os.getenv("OPENAI_API_KEY")
 
+client = None
 
-
-
-from main import (
-    predict_revenue,
-    accuracy
-)
+if api_key:
+    client = OpenAI(
+        api_key=api_key
+    )
 
 # -----------------------------------
 # PAGE CONFIG
@@ -205,7 +208,6 @@ st.info(
     """
 )
 
-
 # -----------------------------------
 # AI BUSINESS RECOMMENDATIONS
 # -----------------------------------
@@ -241,7 +243,7 @@ best_department = (
 st.success(
     f"""
     AI Insight:
-    
+
     {highest_revenue_industry} companies are currently
     generating the strongest average enterprise revenue.
     """
@@ -250,7 +252,7 @@ st.success(
 st.warning(
     f"""
     AI Alert:
-    
+
     Customer churn risk appears highest in {highest_churn_city}.
     Additional retention strategies are recommended.
     """
@@ -259,7 +261,7 @@ st.warning(
 st.info(
     f"""
     AI Recommendation:
-    
+
     The {best_department} department demonstrates
     the strongest operational productivity.
     """
@@ -268,14 +270,12 @@ st.info(
 st.error(
     f"""
     AI Risk Analysis:
-    
+
     {lowest_satisfaction_industry} customers show
     lower satisfaction levels and may require
     improved customer engagement strategies.
     """
 )
-
-
 
 # -----------------------------------
 # KPI CARDS
@@ -301,9 +301,7 @@ avg_churn_risk = (
     ].mean() * 100
 )
 
-col1, col2, col3, col4, col5 = (
-    st.columns(5)
-)
+col1, col2, col3, col4, col5 = st.columns(5)
 
 col1.metric(
     "Customers",
@@ -536,16 +534,6 @@ if st.button(
         f"Predicted Annual Revenue: £{prediction:,.0f}"
     )
 
-    st.success(
-        """
-        AI Insight:
-
-        Customers with higher conversion
-        probability and larger deal sizes
-        tend to generate stronger annual revenue.
-        """
-    )
-
 # -----------------------------------
 # AI REVENUE FORECASTING
 # -----------------------------------
@@ -576,8 +564,6 @@ X_forecast = forecast_df[
 y_forecast = forecast_df[
     "revenue_gbp"
 ]
-
-from sklearn.linear_model import LinearRegression
 
 forecast_model = LinearRegression()
 
@@ -633,7 +619,7 @@ highest_prediction = (
 st.success(
     f"""
     AI Forecast Insight:
-    
+
     Projected peak revenue across the next
     six months may reach approximately
     £{highest_prediction:,.0f}.
@@ -677,7 +663,7 @@ if st.button(
         "Which industry generates the highest revenue?"
     ):
 
-        top_industry = (
+        top_industry_response = (
             filtered_customers.groupby(
                 "industry"
             )["annual_revenue_gbp"]
@@ -688,10 +674,9 @@ if st.button(
         st.success(
             f"""
             Enterprise AI Response:
-            
-            {top_industry} currently generates
-            the highest average customer revenue
-            across the enterprise portfolio.
+
+            {top_industry_response} currently generates
+            the highest average customer revenue.
             """
         )
 
@@ -710,11 +695,9 @@ if st.button(
         st.warning(
             f"""
             Enterprise AI Response:
-            
+
             Customer churn risk is currently
             highest in {risk_city}.
-            Additional customer retention
-            strategies are recommended.
             """
         )
 
@@ -722,7 +705,7 @@ if st.button(
         "Which department is most productive?"
     ):
 
-        best_department = (
+        productive_department = (
             filtered_employees.groupby(
                 "department"
             )["productivity_score"]
@@ -733,10 +716,9 @@ if st.button(
         st.info(
             f"""
             Enterprise AI Response:
-            
-            The {best_department} department
-            demonstrates the strongest
-            operational productivity levels.
+
+            The {productive_department} department
+            demonstrates the strongest productivity.
             """
         )
 
@@ -755,11 +737,9 @@ if st.button(
         st.error(
             f"""
             Enterprise AI Response:
-            
-            Customer satisfaction levels are
-            lowest within the {weak_area} sector.
-            Improved engagement strategies
-            are recommended.
+
+            Customer satisfaction is lowest
+            within the {weak_area} sector.
             """
         )
 
@@ -793,12 +773,11 @@ if st.button(
         st.success(
             f"""
             Enterprise AI Response:
-            
+
             Current machine learning prediction
             accuracy is {accuracy * 100:.1f}%.
             """
         )
-
 
 # -----------------------------------
 # OPENAI EXECUTIVE AI INSIGHTS
@@ -821,109 +800,118 @@ if st.button(
     "Generate Executive AI Report"
 ):
 
-    total_revenue_ai = (
-        filtered_customers[
-            "annual_revenue_gbp"
-        ].sum()
-    )
+    if client is None:
 
-    avg_satisfaction_ai = (
-        filtered_customers[
-            "customer_satisfaction"
-        ].mean()
-    )
+        st.warning(
+            """
+            OpenAI API key not configured.
 
-    avg_churn_ai = (
-        filtered_customers[
-            "churn_risk"
-        ].mean() * 100
-    )
-
-    best_department_ai = (
-        filtered_employees.groupby(
-            "department"
-        )["productivity_score"]
-        .mean()
-        .idxmax()
-    )
-
-    top_industry_ai = (
-        filtered_customers.groupby(
-            "industry"
-        )["annual_revenue_gbp"]
-        .mean()
-        .idxmax()
-    )
-
-    prompt = f"""
-    You are an enterprise AI strategy assistant.
-
-    Analyze the following UK enterprise metrics
-    and provide:
-
-    1. Executive summary
-    2. Key business risks
-    3. Growth opportunities
-    4. Strategic recommendations
-
-    Data:
-
-    Total Revenue:
-    £{total_revenue_ai:,.0f}
-
-    Average Customer Satisfaction:
-    {avg_satisfaction_ai:.1f}%
-
-    Average Churn Risk:
-    {avg_churn_ai:.1f}%
-
-    Best Performing Department:
-    {best_department_ai}
-
-    Highest Revenue Industry:
-    {top_industry_ai}
-
-    Keep the response concise,
-    professional, and executive focused.
-    """
-
-    try:
-
-        response = client.chat.completions.create(
-            model="gpt-4.1-mini",
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are a professional "
-                        "enterprise AI consultant."
-                    )
-                },
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
+            To enable AI generated executive
+            insights, add your OpenAI API key
+            to the .env file.
+            """
         )
 
-        ai_response = (
-            response.choices[0]
-            .message.content
+    else:
+
+        total_revenue_ai = (
+            filtered_customers[
+                "annual_revenue_gbp"
+            ].sum()
         )
 
-        st.success(
-            "Executive AI Report Generated"
+        avg_satisfaction_ai = (
+            filtered_customers[
+                "customer_satisfaction"
+            ].mean()
         )
 
-        st.markdown(ai_response)
-
-    except Exception as error:
-
-        st.error(
-            f"OpenAI API Error: {error}"
+        avg_churn_ai = (
+            filtered_customers[
+                "churn_risk"
+            ].mean() * 100
         )
 
+        best_department_ai = (
+            filtered_employees.groupby(
+                "department"
+            )["productivity_score"]
+            .mean()
+            .idxmax()
+        )
 
+        top_industry_ai = (
+            filtered_customers.groupby(
+                "industry"
+            )["annual_revenue_gbp"]
+            .mean()
+            .idxmax()
+        )
+
+        prompt = f"""
+        You are an enterprise AI strategy assistant.
+
+        Analyze the following UK enterprise metrics
+        and provide:
+
+        1. Executive summary
+        2. Key business risks
+        3. Growth opportunities
+        4. Strategic recommendations
+
+        Data:
+
+        Total Revenue:
+        £{total_revenue_ai:,.0f}
+
+        Average Customer Satisfaction:
+        {avg_satisfaction_ai:.1f}%
+
+        Average Churn Risk:
+        {avg_churn_ai:.1f}%
+
+        Best Performing Department:
+        {best_department_ai}
+
+        Highest Revenue Industry:
+        {top_industry_ai}
+        """
+
+        try:
+
+            response = client.chat.completions.create(
+                model="gpt-4.1-mini",
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "You are a professional "
+                            "enterprise AI consultant."
+                        )
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt
+                    }
+                ]
+            )
+
+            ai_response = (
+                response.choices[0]
+                .message.content
+            )
+
+            st.success(
+                "Executive AI Report Generated"
+            )
+
+            st.markdown(ai_response)
+
+        except Exception as error:
+
+            st.error(
+                f"OpenAI API Error: {error}"
+            )
 
 # -----------------------------------
 # DOWNLOAD REPORTS
@@ -960,4 +948,5 @@ st.caption(
     Plotly, Pandas, and Scikit-learn
     """
 )
+
 
