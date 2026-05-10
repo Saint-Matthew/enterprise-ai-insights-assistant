@@ -1,0 +1,251 @@
+operation_id,department,operational_cost_gbp,efficiency_score,issues_reported
+1,Marketing,4522,68.43,16
+2,Operations,33958,53.4,17
+3,Data Analytics,38535,61.85,10
+4,Sales,14246,50.95,4
+5,Marketing,29396,69.81,16
+6,Marketing,22562,95.49,5
+7,Sales,35740,79.32,15
+8,Operations,25596,81.82,7
+9,Operations,8942,89.09,6
+10,Operations,48843,64.75,20
+11,Marketing,1994,88.18,14
+12,Marketing,33682,64.89,16
+13,Operations,1987,66.03,12
+14,Customer Success,17621,58.46,18
+15,Data Analytics,48761,95.73,19
+16,Sales,12155,87.7,1
+17,Data Analytics,3674,99.89,12
+18,Sales,36633,70.2,6
+19,Marketing,48458,56.57,1
+20,Marketing,47004,88.53,18
+21,Sales,27349,75.73,0
+22,Operations,20274,88.28,20
+23,Operations,34554,59.64,2
+24,Sales,4656,57.32,3
+25,Customer Success,29369,73.45,12
+26,Sales,29104,88.75,3
+27,Sales,9605,72.46,13
+28,Operations,14251,68.56,5
+29,Customer Success,25627,76.88,2
+30,Marketing,10648,81.39,12
+31,Customer Success,27735,81.65,16
+32,Data Analytics,18777,51.22,13
+33,Operations,25625,90.41,16
+34,Sales,43165,82.31,9
+35,Marketing,10695,64.83,4
+36,Data Analytics,43673,61.69,1
+37,Customer Success,17946,75.06,5
+38,Sales,36799,68.07,17
+39,Operations,24839,69.09,4
+40,Operations,25548,60.08,9
+41,Sales,37645,74.21,2
+42,Customer Success,21739,84.12,16
+43,Operations,2832,63.69,12
+44,Data Analytics,21487,63.73,12
+45,Customer Success,33955,73.03,19
+46,Operations,26545,95.26,17
+47,Sales,39696,95.85,9
+48,Data Analytics,7107,74.98,20
+49,Operations,11118,97.79,14
+50,Data Analytics,8084,97.2,2
+51,Customer Success,39523,54.86,18
+52,Marketing,34105,84.11,7
+53,Operations,1178,52.0,2
+54,Operations,9677,82.4,13
+55,Marketing,18264,88.45,16
+56,Data Analytics,36333,92.31,14
+57,Customer Success,1873,84.73,19
+58,Customer Success,28271,58.91,11
+59,Customer Success,21615,80.49,9
+60,Marketing,18802,75.18,3
+61,Data Analytics,49471,62.64,10
+62,Data Analytics,12765,51.93,4
+63,Data Analytics,38597,83.73,12
+64,Customer Success,37631,79.51,8
+65,Sales,6124,56.15,0
+66,Marketing,32793,98.49,20
+67,Marketing,34656,80.9,9
+68,Operations,48262,69.56,6
+69,Data Analytics,22066,69.45,15
+70,Operations,18229,67.28,17
+71,Customer Success,27965,55.89,8
+72,Sales,42717,84.37,0
+73,Marketing,11587,87.45,4
+74,Customer Success,48276,54.42,8
+75,Sales,39269,58.37,19
+76,Operations,18253,57.84,18
+77,Marketing,39690,71.48,19
+78,Data Analytics,32735,73.84,8
+79,Sales,38046,65.96,2
+80,Sales,29325,93.61,14
+81,Marketing,7998,89.73,20
+82,Customer Success,42666,60.38,18
+83,Sales,37430,79.6,0
+84,Operations,33987,53.87,20
+85,Operations,11603,57.61,17
+86,Operations,16938,70.46,9
+87,Customer Success,27151,84.15,11
+88,Sales,37698,82.02,2
+89,Customer Success,49710,90.9,16
+90,Operations,34927,52.73,5
+91,Marketing,8136,82.68,11
+92,Sales,19352,54.77,10
+93,Sales,32926,79.18,3
+94,Operations,29680,97.72,6
+95,Customer Success,26578,87.53,17
+96,Marketing,36297,97.28,6
+97,Marketing,33523,52.26,14
+98,Data Analytics,16502,52.48,13
+99,Marketing,12986,52.72,3
+100,Marketing,29354,89.77,11
+101,Marketing,44634,93.17,17
+102,Customer Success,26420,67.46,1
+103,Data Analytics,29260,54.02,3
+104,Data Analytics,38370,55.66,6
+105,Operations,23558,61.67,9
+106,Marketing,36618,99.38,20
+107,Operations,41144,99.84,5
+108,Marketing,21222,69.22,8
+109,Operations,36124,83.04,0
+110,Customer Success,31649,56.55,2
+111,Sales,12649,62.2,20
+112,Sales,29509,99.07,18
+113,Sales,46861,79.8,9
+114,Sales,36905,87.7,12
+115,Data Analytics,11093,81.68,12
+116,Customer Success,46564,64.44,7
+117,Sales,35922,90.53,8
+118,Marketing,45104,99.55,11
+119,Sales,23012,89.81,5
+120,Data Analytics,2465,59.01,10
+121,Sales,25759,70.15,0
+122,Operations,27077,67.61,2
+123,Data Analytics,28735,53.4,9
+124,Sales,35556,67.11,5
+125,Sales,49690,64.06,11
+126,Data Analytics,16664,91.47,5
+127,Data Analytics,16074,68.4,20
+128,Marketing,39952,90.19,12
+129,Marketing,41866,51.33,15
+130,Operations,16903,80.55,9
+131,Marketing,25347,55.52,11
+132,Marketing,10430,62.78,5
+133,Customer Success,34282,83.38,7
+134,Customer Success,12285,80.5,7
+135,Customer Success,19395,94.05,12
+136,Marketing,26481,72.45,1
+137,Data Analytics,38067,75.29,11
+138,Customer Success,28778,74.28,12
+139,Customer Success,14599,58.96,18
+140,Data Analytics,4155,72.03,2
+141,Operations,36263,86.76,20
+142,Data Analytics,16419,61.12,9
+143,Sales,36601,61.04,10
+144,Marketing,44683,61.34,15
+145,Sales,3520,80.16,10
+146,Data Analytics,22223,85.77,16
+147,Operations,1060,54.33,0
+148,Sales,43765,67.43,12
+149,Sales,7288,80.3,9
+150,Marketing,10650,79.58,7
+151,Data Analytics,6999,62.85,18
+152,Customer Success,29562,67.13,10
+153,Marketing,12052,93.77,2
+154,Data Analytics,26748,55.07,10
+155,Customer Success,45832,74.4,3
+156,Sales,24800,82.27,16
+157,Marketing,4840,79.0,4
+158,Customer Success,22478,80.11,16
+159,Operations,10101,99.73,14
+160,Customer Success,40233,99.87,3
+161,Marketing,23036,58.03,5
+162,Marketing,26100,78.1,5
+163,Data Analytics,32801,98.3,19
+164,Sales,3220,92.61,0
+165,Operations,34330,82.33,12
+166,Operations,34594,85.35,6
+167,Operations,28378,88.03,15
+168,Data Analytics,22714,74.66,12
+169,Data Analytics,11309,89.98,7
+170,Sales,24788,54.71,12
+171,Operations,19148,59.26,0
+172,Customer Success,20927,79.9,12
+173,Data Analytics,47188,74.52,6
+174,Operations,39134,62.21,12
+175,Operations,19303,57.01,20
+176,Operations,32162,73.75,14
+177,Sales,40196,85.57,17
+178,Sales,11102,96.66,16
+179,Sales,49074,68.07,14
+180,Operations,36699,84.88,15
+181,Data Analytics,2496,59.79,17
+182,Marketing,21364,87.65,16
+183,Data Analytics,23025,52.7,17
+184,Data Analytics,4760,55.2,4
+185,Sales,35352,93.94,4
+186,Operations,17449,52.57,9
+187,Sales,21282,79.44,16
+188,Operations,16594,99.77,10
+189,Sales,43682,53.16,17
+190,Data Analytics,26975,65.47,2
+191,Data Analytics,30407,80.16,20
+192,Sales,14788,85.62,10
+193,Data Analytics,35592,65.65,17
+194,Operations,8414,55.74,7
+195,Sales,6105,85.7,3
+196,Data Analytics,28578,97.82,7
+197,Sales,5404,95.55,13
+198,Customer Success,26971,50.83,6
+199,Marketing,37778,75.7,17
+200,Data Analytics,38650,80.87,12
+201,Customer Success,31616,86.97,13
+202,Sales,17301,92.52,18
+203,Customer Success,2101,62.15,18
+204,Marketing,44036,82.8,8
+205,Customer Success,16906,74.32,0
+206,Customer Success,6749,60.95,11
+207,Marketing,8271,75.43,7
+208,Marketing,10816,70.68,18
+209,Operations,6222,58.19,18
+210,Sales,28107,87.93,15
+211,Customer Success,22102,83.59,4
+212,Marketing,44819,56.84,4
+213,Marketing,5654,94.35,15
+214,Data Analytics,5845,69.51,17
+215,Data Analytics,12204,92.86,19
+216,Sales,42169,87.1,12
+217,Sales,2438,54.09,16
+218,Customer Success,21247,95.33,18
+219,Data Analytics,28062,62.99,6
+220,Data Analytics,41769,73.63,20
+221,Sales,44764,57.82,12
+222,Data Analytics,29043,91.27,12
+223,Data Analytics,21586,76.56,11
+224,Data Analytics,13363,70.77,9
+225,Data Analytics,29862,96.12,2
+226,Marketing,48777,82.91,4
+227,Data Analytics,33191,58.45,18
+228,Customer Success,49319,68.83,2
+229,Operations,3986,58.12,20
+230,Marketing,48918,82.2,3
+231,Customer Success,10166,84.57,15
+232,Operations,8017,56.94,14
+233,Marketing,32279,90.74,20
+234,Operations,15900,98.89,17
+235,Data Analytics,37648,94.57,13
+236,Sales,30511,50.96,16
+237,Marketing,28097,73.75,12
+238,Marketing,11338,70.76,9
+239,Sales,43709,79.68,15
+240,Sales,32211,53.75,5
+241,Customer Success,41925,89.71,7
+242,Marketing,12768,71.43,2
+243,Customer Success,32120,51.4,9
+244,Operations,26335,56.91,8
+245,Data Analytics,30583,63.03,18
+246,Operations,2034,50.26,16
+247,Marketing,6074,73.53,6
+248,Operations,24420,80.41,14
+249,Sales,24619,99.27,6
+250,Operations,41203,59.8,4

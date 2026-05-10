@@ -1,0 +1,41 @@
+employee_id,employee_name,department,role,productivity_score,tasks_completed,sales_closed
+1,Julian West,Customer Success,Business Intelligence Analyst,59.44,295,22
+2,Mrs Francesca Bennett,Customer Success,Business Intelligence Analyst,61.43,88,5
+3,Dr Robin Smith,Sales,Operations Manager,82.42,173,6
+4,Amy Webster,Operations,Business Intelligence Analyst,79.31,26,27
+5,Olivia Morgan,Customer Success,Business Intelligence Analyst,89.79,51,20
+6,Dr James Taylor,Marketing,Business Intelligence Analyst,72.24,209,20
+7,Amber Ward-James,Data Analytics,CRM Analyst,59.01,151,24
+8,Samuel Johnson,Marketing,CRM Analyst,85.06,47,47
+9,Claire Murray,Data Analytics,Customer Success Manager,67.79,277,19
+10,Benjamin Clarke,Data Analytics,Marketing Specialist,50.62,274,36
+11,Tony Harding-Rhodes,Sales,CRM Analyst,68.83,158,17
+12,Wendy Barker,Customer Success,CRM Analyst,87.69,56,14
+13,Mr Jay Robson,Customer Success,Customer Success Manager,73.47,231,21
+14,Jack Cooper,Sales,Marketing Specialist,74.53,151,25
+15,Joyce Hussain,Operations,Sales Executive,72.62,211,11
+16,Henry Khan,Marketing,Business Intelligence Analyst,96.25,121,25
+17,Gareth Moss-Brown,Customer Success,Marketing Specialist,88.12,103,22
+18,Jean Whitehead,Customer Success,Operations Manager,96.02,180,23
+19,Bradley Palmer,Customer Success,Marketing Specialist,64.66,209,34
+20,George Harris,Operations,CRM Analyst,53.72,177,36
+21,Mrs Kayleigh Clarke,Customer Success,Operations Manager,70.03,20,4
+22,Mr Roy Conway,Customer Success,Customer Success Manager,80.21,286,39
+23,Barbara Weston,Sales,Operations Manager,92.56,90,19
+24,Hugh Simmons,Sales,Business Intelligence Analyst,95.77,176,50
+25,Ms Lesley Clarke,Sales,Marketing Specialist,86.79,35,7
+26,Dr Lydia Jordan,Customer Success,Marketing Specialist,95.9,115,12
+27,Dr Clifford Bird,Operations,Business Intelligence Analyst,71.63,288,33
+28,Francesca Wilkins,Sales,Customer Success Manager,89.66,185,31
+29,Mr Brett O'Sullivan,Customer Success,Business Intelligence Analyst,91.48,267,46
+30,Lewis Watson,Sales,Operations Manager,82.44,21,36
+31,Diana Vaughan,Data Analytics,CRM Analyst,63.92,247,32
+32,Christian Bruce,Sales,Business Intelligence Analyst,78.31,45,23
+33,Emma Donnelly,Data Analytics,Marketing Specialist,75.41,248,7
+34,Justin Lewis,Sales,Customer Success Manager,92.43,101,19
+35,Beverley Byrne,Operations,Sales Executive,77.94,156,6
+36,Clive Oliver-Nicholson,Operations,Operations Manager,86.98,140,7
+37,Mr Charles Hodgson,Data Analytics,Business Intelligence Analyst,53.54,144,44
+38,Kirsty Cook-Thomas,Data Analytics,Sales Executive,59.54,151,23
+39,Natasha Jones,Operations,Operations Manager,82.19,186,20
+40,Angela Graham-Holden,Data Analytics,Customer Success Manager,79.96,41,47

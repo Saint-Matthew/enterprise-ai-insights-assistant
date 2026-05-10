@@ -1,0 +1,121 @@
+customer_id,company_name,industry,city,annual_revenue_gbp,customer_satisfaction,churn_risk
+1,Bruce PLC,E-commerce,Leeds,1149872,78.27,0.9
+2,Duncan-Price,FinTech,Leeds,4491848,95.33,0.79
+3,McLean Ltd,Consulting,Leeds,1856980,62.47,0.37
+4,O'Brien PLC,Consulting,London,4383065,70.79,0.46
+5,Francis Group,Real Estate,Birmingham,2661901,95.26,0.51
+6,"Begum, Green and Bates",FinTech,Leeds,2336777,71.39,0.65
+7,Kennedy and Sons,Real Estate,Leeds,1699082,72.92,0.21
+8,Smith-Phillips,SaaS,Bristol,3277459,80.2,0.12
+9,Brown and Sons,Retail,London,2062951,60.59,0.31
+10,"Richards, Taylor and Edwards",Retail,Birmingham,1221137,78.42,0.93
+11,Baxter-Poole,SaaS,Liverpool,4927090,88.52,0.13
+12,Hussain LLC,Healthcare,Liverpool,3734106,88.12,0.0
+13,Brookes-Hope,E-commerce,Bristol,4067697,90.9,0.27
+14,Macdonald Inc,E-commerce,Bristol,3575131,77.59,0.45
+15,Shah Ltd,Healthcare,London,4068408,62.88,0.84
+16,"Connor, Nicholson and Webb",E-commerce,Bristol,2168786,73.61,0.69
+17,"Reeves, Rees and Fuller",FinTech,Birmingham,4091585,60.91,0.6
+18,White-Allan,SaaS,Manchester,1699037,62.2,0.98
+19,Chapman-Smith,E-commerce,Birmingham,3069506,66.79,0.23
+20,"Turner, Kelly and Watson",E-commerce,London,361528,77.53,0.87
+21,Taylor Inc,Healthcare,London,2668797,90.12,0.51
+22,"Lee, Ryan and Gibbons",FinTech,Liverpool,2527986,86.49,0.36
+23,Lawrence-Stokes,Healthcare,London,2541842,80.99,0.07
+24,Simmons-Moran,Retail,Liverpool,1346750,65.47,0.05
+25,Ross-Barlow,SaaS,London,3256583,82.12,0.25
+26,"Evans, Ryan and Cross",SaaS,Manchester,3563912,63.07,0.94
+27,Graham Ltd,SaaS,Bristol,505393,89.24,0.91
+28,Cartwright-Stanley,SaaS,London,1124525,78.21,0.53
+29,Jarvis PLC,Healthcare,Leeds,4469618,89.85,0.05
+30,Ahmed Group,Healthcare,Bristol,812043,82.87,0.66
+31,Turner Inc,E-commerce,Liverpool,2469813,98.48,0.06
+32,"Bull, Bell and Graham",Retail,Birmingham,2724559,77.41,0.83
+33,Hammond-Morrison,Logistics,Manchester,475988,85.31,0.04
+34,Smith Ltd,Consulting,Birmingham,1287070,75.92,0.83
+35,"Holden, Lloyd and Godfrey",Healthcare,Leeds,481409,83.31,0.02
+36,Mason LLC,Logistics,Bristol,953214,62.51,0.88
+37,Marsden-Robinson,FinTech,London,1888974,98.64,0.58
+38,Robinson and Sons,Healthcare,Bristol,4251298,74.29,0.51
+39,Willis-Wong,SaaS,Bristol,2133077,62.56,0.84
+40,Sullivan and Sons,Real Estate,Birmingham,2084620,87.47,0.61
+41,"Mahmood, Williams and Henderson",Healthcare,London,1673644,76.0,0.45
+42,Wood-Davies,FinTech,Bristol,2790669,99.31,0.25
+43,Bibi Group,Consulting,London,2757573,78.35,0.82
+44,"Bryant, Brown and Berry",FinTech,Manchester,1846882,98.76,0.06
+45,Fisher Inc,E-commerce,Liverpool,2441193,69.88,0.39
+46,"Coates, Hicks and Hardy",FinTech,London,1364014,97.3,0.35
+47,Clarke Inc,Consulting,Birmingham,1845748,70.47,0.84
+48,"Young, Walker and Kent",Real Estate,Leeds,2867723,86.17,0.43
+49,"Gordon, Ford and Lowe",E-commerce,Manchester,3242351,62.31,0.47
+50,Lewis-Thomas,E-commerce,Bristol,2384106,81.42,0.92
+51,Simpson Inc,Consulting,Liverpool,3997794,69.4,0.56
+52,Wells Group,Logistics,Birmingham,3036354,61.02,0.49
+53,Smith-Phillips,Healthcare,Manchester,1139295,97.45,0.58
+54,Warner-Payne,SaaS,Bristol,3334044,96.47,0.95
+55,Moore Inc,Retail,London,179360,97.8,0.85
+56,"Carr, Cox and Sharpe",Consulting,Leeds,2180940,66.09,0.97
+57,Mann Inc,Healthcare,London,2480453,72.11,0.01
+58,Griffiths-Miles,Consulting,Leeds,2944471,83.03,0.81
+59,"Elliott, Miller and Taylor",Logistics,Leeds,2349434,77.4,0.43
+60,Nixon PLC,Real Estate,Manchester,3091758,68.91,0.65
+61,Marsh Inc,Healthcare,Manchester,4370119,85.57,0.34
+62,Brown Group,E-commerce,Leeds,3152986,61.58,0.72
+63,"Davis, Ferguson and Booth",E-commerce,Bristol,4003593,90.82,0.53
+64,Edwards-Price,Logistics,Birmingham,1056775,74.7,0.72
+65,Knight Group,Real Estate,Liverpool,765861,89.06,0.3
+66,Adams PLC,Retail,Leeds,2443866,93.41,0.2
+67,"Smith, Morris and Berry",SaaS,Liverpool,4779876,93.84,0.19
+68,Barry-Moore,Consulting,Manchester,1732419,83.09,0.0
+69,Lewis-Coates,SaaS,London,3616827,98.69,0.24
+70,"Goddard, Stokes and Williamson",Retail,London,4617704,95.61,0.75
+71,Gardner Inc,Consulting,Manchester,2122704,63.36,0.55
+72,Baker-Price,Healthcare,Liverpool,4273833,82.81,0.81
+73,"Brown, Lewis and Collins",Consulting,Birmingham,4512655,91.42,0.98
+74,Bradley PLC,Consulting,Birmingham,1109794,80.13,0.53
+75,Davies-Bradshaw,Real Estate,Birmingham,3547820,76.84,0.87
+76,"Hobbs, Perry and Davey",Real Estate,Birmingham,1008665,75.76,0.42
+77,Baker-Daniels,FinTech,Manchester,1276420,93.13,0.54
+78,Winter PLC,FinTech,Bristol,4243097,71.14,0.35
+79,Smith-Chandler,SaaS,Liverpool,2675708,80.44,0.67
+80,"Thompson, Smith and Green",SaaS,Manchester,4126910,73.36,0.03
+81,"Stanley, Slater and Greenwood",Real Estate,Bristol,3639605,84.86,0.09
+82,"Barker, Norton and Carter",FinTech,Liverpool,77853,77.17,0.32
+83,Davis-Collins,Logistics,Leeds,3628614,62.86,0.42
+84,Hudson-Gregory,Logistics,Bristol,3046674,61.1,0.99
+85,Rhodes-Barrett,Healthcare,Bristol,4892254,81.95,0.88
+86,"Faulkner, Fry and Watson",Real Estate,Birmingham,3301076,98.22,0.31
+87,"Ashton, Edwards and Dodd",Consulting,Leeds,4588760,77.74,0.7
+88,Fleming-Gardner,Retail,Birmingham,4996644,73.86,0.8
+89,Begum and Sons,SaaS,Birmingham,1216078,69.52,0.07
+90,Patel-Gould,SaaS,Bristol,697173,64.82,0.14
+91,Edwards-Richardson,FinTech,Bristol,2459909,63.29,0.92
+92,"Kelly, Ryan and Forster",Real Estate,Leeds,2945213,64.08,0.8
+93,Fisher-Williams,Retail,Bristol,1923422,71.61,0.73
+94,Smith Inc,Real Estate,Manchester,4428499,97.42,0.56
+95,"Clark, Baker and Wilson",FinTech,London,2051258,98.99,0.4
+96,Hall-Rogers,SaaS,Leeds,2985853,95.6,0.74
+97,"Armstrong, Cameron and Williams",Retail,Leeds,4498736,97.14,0.07
+98,Dale-Thorpe,Logistics,Birmingham,2593905,88.67,0.98
+99,Taylor PLC,Consulting,Manchester,4268668,72.48,0.5
+100,"Taylor, Jones and Richards",FinTech,Liverpool,3380544,75.14,0.53
+101,Kelly-Howells,Retail,Bristol,1066641,71.25,0.13
+102,Wong and Sons,FinTech,Birmingham,284903,61.88,0.89
+103,West-Hussain,Real Estate,Bristol,718225,79.92,0.69
+104,Collins-Hughes,SaaS,Bristol,1838053,63.72,0.17
+105,Cross-Potter,FinTech,Bristol,3459010,85.11,0.73
+106,Coleman-Hopkins,Healthcare,Liverpool,3025416,88.15,0.7
+107,"Slater, Kaur and Wright",Logistics,London,3412619,80.62,0.3
+108,Wilkinson Group,Logistics,London,2327002,60.58,0.69
+109,Carey Inc,FinTech,London,4647721,99.95,0.76
+110,"Simpson, Williams and Gill",Consulting,Birmingham,4581122,74.38,0.93
+111,"Rose, Bennett and Morrison",Retail,Birmingham,544457,62.93,0.97
+112,"Bennett, Bowen and Lee",Logistics,London,4805083,95.56,0.41
+113,Moore and Sons,SaaS,Leeds,627039,78.96,0.78
+114,"Smith, Hill and Ashton",FinTech,Liverpool,3425676,62.11,0.22
+115,"King, Graham and Wright",Retail,Manchester,3290049,94.77,0.23
+116,Turner Inc,E-commerce,Bristol,3306402,64.98,0.17
+117,Roberts LLC,FinTech,Leeds,921308,93.87,0.98
+118,"Williams, Nicholson and Woodward",Retail,Bristol,3573870,98.19,0.36
+119,Harrison Inc,FinTech,Liverpool,4739244,92.57,0.86
+120,"Jones, Freeman and Jones",Retail,Liverpool,226318,95.54,0.74
