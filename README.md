@@ -204,15 +204,7 @@ streamlit run app.py
 
 # OpenAI Integration
 
-The project supports OpenAI powered executive insights generation.
-
-Create a `.env` file:
-
-```text
-OPENAI_API_KEY=your_api_key_here
-```
-
-The `.env` file should never be uploaded publicly.
+The project supports OpenAI powered executive insights generation for strategic business recommendations and enterprise analytics.
 
 ---
 
