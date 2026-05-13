@@ -43,8 +43,6 @@ Interactive enterprise assistant capable of answering executive business intelli
 
 Integrated OpenAI powered executive reporting system capable of generating strategic business recommendations, executive summaries, growth opportunities, and enterprise risk analysis.
 
-Note:
-The OpenAI integration is optional and requires a valid OpenAI API key configured inside a local `.env` file.
 
 ![OpenAI](screenshots/openai.png)
 
