@@ -2,9 +2,18 @@
 
 An AI powered enterprise intelligence platform designed for UK businesses to generate predictive analytics, executive insights, forecasting intelligence, and operational recommendations through machine learning and interactive business analytics.
 
-This project combines enterprise business intelligence, predictive AI systems, forecasting analytics, and simulated AI assistant capabilities into a modern enterprise analytics platform.
+This project combines enterprise business intelligence, predictive AI systems, forecasting analytics, OpenAI powered executive intelligence, and simulated enterprise assistant capabilities into a modern AI driven analytics platform.
 
 ---
+
+# Live Demo
+
+Streamlit App:  
+https://saint-matthew-enterprise-ai-insights-assistant-app-jhzt8s.streamlit.app/
+
+
+---
+
 # Dashboard Preview
 
 ## Executive AI Dashboard
@@ -42,7 +51,6 @@ Interactive enterprise assistant capable of answering executive business intelli
 ## OpenAI Executive Insights
 
 Integrated OpenAI powered executive reporting system capable of generating strategic business recommendations, executive summaries, growth opportunities, and enterprise risk analysis.
-
 
 ![OpenAI](screenshots/openai.png)
 
@@ -118,16 +126,132 @@ OpenAI powered executive reporting system that generates:
 
 ---
 
-# Machine Learning Models
+# System Architecture
 
-The platform uses:
+## Frontend Layer
 
+Responsible for dashboard rendering, visualization, and enterprise user interaction.
+
+### Technologies
+- Streamlit
+- Plotly
+
+### Responsibilities
+- Interactive enterprise dashboards
+- KPI visualization
+- Business intelligence rendering
+- Dynamic filtering systems
+- Executive reporting interfaces
+
+### Files
+- `app.py`
+
+---
+
+## Backend Layer
+
+Responsible for business logic, data processing, forecasting workflows, and enterprise analytics computation.
+
+### Technologies
+- Python
+- Pandas
+- NumPy
+- SQLite
+- Scikit-learn
+
+### Responsibilities
+- Enterprise data preprocessing
+- Business analytics workflows
+- Revenue forecasting computation
+- Prediction engine logic
+- Database handling
+- Operational analytics
+
+### Files
+- `main.py`
+- `database.py`
+- `generate_dataset.py`
+
+---
+
+## Machine Learning Layer
+
+Responsible for predictive analytics and enterprise forecasting systems.
+
+### Models and Techniques
 - Linear Regression
 - Predictive Analytics
 - Revenue Forecasting
 - Label Encoding
 - Train/Test Split Validation
 - R² Accuracy Evaluation
+
+### Capabilities
+- Revenue prediction
+- Trend forecasting
+- Churn risk analysis
+- Enterprise performance prediction
+- Predictive business intelligence
+
+---
+
+## OpenAI Intelligence Layer
+
+Responsible for AI generated executive intelligence and strategic business reporting.
+
+### Technologies
+- OpenAI API
+- Python Dotenv
+
+### Capabilities
+- Executive summary generation
+- Strategic recommendations
+- Enterprise risk analysis
+- Operational insights
+- Growth opportunity reporting
+
+### Configuration
+The OpenAI integration is optional and requires a local `.env` configuration file.
+
+---
+
+## Data Layer
+
+Responsible for enterprise dataset management and structured business records.
+
+### Enterprise Datasets
+- Customer intelligence
+- Revenue analytics
+- Employee productivity
+- Operational metrics
+- Sales performance
+
+### Files
+```text
+datasets/
+├── customers.csv
+├── employees.csv
+├── operations.csv
+├── revenue.csv
+└── sales.csv
+```
+
+---
+
+## Infrastructure and Deployment
+
+Responsible for deployment, hosting, and version control operations.
+
+### Technologies
+- Git
+- GitHub
+- Streamlit Cloud
+
+### Responsibilities
+- Cloud deployment
+- Repository management
+- Version control workflows
+- Public application accessibility
 
 ---
 
@@ -138,10 +262,13 @@ The platform uses:
 - SQLite
 - Pandas
 - Plotly
-- Scikit-learn
 - NumPy
+- Scikit-learn
 - OpenAI API
 - Python Dotenv
+- Git
+- GitHub
+- Streamlit Cloud
 
 ---
 
@@ -204,7 +331,17 @@ streamlit run app.py
 
 # OpenAI Integration
 
-The project supports OpenAI powered executive insights generation for strategic business recommendations and enterprise analytics.
+The project supports optional OpenAI powered executive insights generation for strategic business recommendations and enterprise analytics.
+
+Create a local `.env` file:
+
+```text
+OPENAI_API_KEY=your_api_key_here
+```
+
+Important:
+- Never upload `.env` files publicly
+- Never expose API keys inside repositories
 
 ---
 
@@ -249,23 +386,21 @@ The platform demonstrates:
 # Future Improvements
 
 Planned future upgrades include:
-
 - Real-time enterprise APIs
-- Authentication system
-- Cloud deployment optimization
+- Authentication systems
 - Multi-user support
 - NLP powered conversational AI
 - Advanced forecasting models
 - AI anomaly detection
 - PostgreSQL integration
 - Role based dashboards
+- Cloud scalability optimization
 
 ---
 
 # Project Goal
 
 The objective of this project is to demonstrate:
-
 - Applied artificial intelligence
 - Enterprise machine learning systems
 - Business intelligence engineering
