@@ -1,6 +1,6 @@
 ---
-title: Marketing Agency Business Intelligence System
-emoji: 📊
+title: Enterprise AI Insights Assistant
+emoji: 🤖
 colorFrom: blue
 colorTo: purple
 sdk: streamlit
@@ -8,9 +8,6 @@ sdk_version: 1.35.0
 app_file: streamlit_app.py
 pinned: false
 ---
-
-
-
 
 # Enterprise AI Insights Assistant
 
@@ -24,7 +21,6 @@ This project combines enterprise business intelligence, predictive AI systems, f
 
 Streamlit App:  
 https://saint-matthew-enterprise-ai-insights-assistant-app-jhzt8s.streamlit.app/
-
 
 ---
 
@@ -140,11 +136,15 @@ OpenAI powered executive reporting system that generates:
 
 ---
 
-# System Architecture
+# System Architecture and Project Layers
+
+The project is structured using separated concerns to improve scalability, maintainability, modularity, and enterprise level software organization.
+
+---
 
 ## Frontend Layer
 
-Responsible for dashboard rendering, visualization, and enterprise user interaction.
+Responsible for dashboard rendering, visualization, user interaction, and enterprise reporting interfaces.
 
 ### Technologies
 - Streamlit
@@ -153,65 +153,74 @@ Responsible for dashboard rendering, visualization, and enterprise user interact
 ### Responsibilities
 - Interactive enterprise dashboards
 - KPI visualization
-- Business intelligence rendering
-- Dynamic filtering systems
 - Executive reporting interfaces
+- Business analytics rendering
+- Dynamic filters and controls
+- User focused analytics experience
 
-### Files
-- `app.py`
+### Frontend Components
+
+```text
+streamlit_app.py
+```
 
 ---
 
 ## Backend Layer
 
-Responsible for business logic, data processing, forecasting workflows, and enterprise analytics computation.
+Responsible for business logic, enterprise workflows, data handling, and operational processing.
 
 ### Technologies
 - Python
 - Pandas
 - NumPy
 - SQLite
-- Scikit-learn
 
 ### Responsibilities
 - Enterprise data preprocessing
-- Business analytics workflows
-- Revenue forecasting computation
-- Prediction engine logic
-- Database handling
-- Operational analytics
+- Workflow orchestration
+- Revenue analytics computation
+- Operational business logic
+- Database interaction
+- Data transformation pipelines
 
-### Files
-- `main.py`
-- `database.py`
-- `generate_dataset.py`
+### Backend Components
+
+```text
+main.py
+database.py
+generate_dataset.py
+```
 
 ---
 
 ## Machine Learning Layer
 
-Responsible for predictive analytics and enterprise forecasting systems.
+Responsible for predictive analytics, forecasting systems, and intelligent enterprise modeling.
 
-### Models and Techniques
+### Technologies
+- Scikit-learn
 - Linear Regression
-- Predictive Analytics
-- Revenue Forecasting
-- Label Encoding
-- Train/Test Split Validation
-- R² Accuracy Evaluation
 
 ### Capabilities
 - Revenue prediction
-- Trend forecasting
-- Churn risk analysis
-- Enterprise performance prediction
-- Predictive business intelligence
+- Forecasting intelligence
+- Predictive business analytics
+- Churn risk prediction
+- Trend analysis
+- Enterprise performance modeling
+
+### ML Techniques
+- Linear Regression
+- Label Encoding
+- Train/Test Split Validation
+- R² Accuracy Evaluation
 
 ---
 
 ## OpenAI Intelligence Layer
 
-Responsible for AI generated executive intelligence and strategic business reporting.
+Responsible for AI generated executive intelligence and strategic reporting systems.
 
 ### Technologies
 - OpenAI API
@@ -219,12 +228,13 @@ Responsible for AI generated executive intelligence and strategic business repor
 
 ### Capabilities
 - Executive summary generation
-- Strategic recommendations
+- Strategic business recommendations
+- Operational intelligence reporting
 - Enterprise risk analysis
-- Operational insights
-- Growth opportunity reporting
+- Growth opportunity analysis
 
-### Configuration
+### Security
+
 The OpenAI integration is optional and requires a local `.env` configuration file.
 
 ---
@@ -240,7 +250,8 @@ Responsible for enterprise dataset management and structured business records.
 - Operational metrics
 - Sales performance
 
-### Files
+### Dataset Structure
+
 ```text
 datasets/
 ├── customers.csv
@@ -252,9 +263,9 @@ datasets/
 
 ---
 
-## Infrastructure and Deployment
+## Infrastructure and Deployment Layer
 
-Responsible for deployment, hosting, and version control operations.
+Responsible for deployment workflows, hosting, repository management, and cloud accessibility.
 
 ### Technologies
 - Git
@@ -263,9 +274,10 @@ Responsible for deployment, hosting, and version control operations.
 
 ### Responsibilities
 - Cloud deployment
-- Repository management
-- Version control workflows
-- Public application accessibility
+- Version control management
+- Repository workflows
+- Public application hosting
+- Deployment scalability
 
 ---
 
@@ -299,11 +311,14 @@ enterprise-ai-insights-assistant/
 │   └── sales.csv
 │
 ├── screenshots/
-│
-├── assets/
+│   ├── dashboard.png
+│   ├── analytics.png
+│   ├── forecasting.png
+│   ├── assistant.png
+│   └── openai.png
 │
 ├── ai_enterprise.db
-├── app.py
+├── streamlit_app.py
 ├── database.py
 ├── generate_dataset.py
 ├── main.py
@@ -338,7 +353,7 @@ python database.py
 ## 4. Start Dashboard
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ---
