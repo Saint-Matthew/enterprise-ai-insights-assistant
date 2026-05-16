@@ -1,18 +1,3 @@
----
-title: Enterprise AI Insights Assistant
-emoji: "🚀"
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: "1.35.0"
-app_file: streamlit_app.py
-pinned: false
----
-
-
-
-
-
 # Enterprise AI Insights Assistant
 
 An AI powered enterprise intelligence platform designed for UK businesses to generate predictive analytics, executive insights, forecasting intelligence, and operational recommendations through machine learning and interactive business analytics.
