@@ -9,7 +9,7 @@ This project combines enterprise business intelligence, predictive AI systems, f
 # Live Demo
 
 Streamlit App:  
-https://saint-matthew-enterprise-ai-insights-assistant-app-jhzt8s.streamlit.app/
+https://saint-matthew-enterprise-ai-insights-assis-streamlit-app-z0zygi.streamlit.app/
 
 ---
 
