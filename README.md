@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 title: Enterprise AI Insights Assistant
 emoji: "🚀"
 colorFrom: blue
@@ -458,24 +457,3 @@ University of the People
 
 This project demonstrates the application of enterprise artificial intelligence, predictive analytics, machine learning, and intelligent business intelligence systems for modern enterprise decision support.
 
-=======
-title: Enterprise Ai Insights Assistant
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
-pinned: false
-short_description: Streamlit template space
-license: mit
----
-
-# Welcome to Streamlit!
-
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
->>>>>>> 6787e1ce28cbcf8f6f6dd56ee7878df613582b7d
