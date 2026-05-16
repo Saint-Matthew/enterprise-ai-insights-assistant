@@ -19,7 +19,7 @@ https://saint-matthew-enterprise-ai-insights-assistant-app-jhzt8s.streamlit.app/
 
 Interactive enterprise intelligence dashboard with AI powered KPI monitoring, customer analytics, operational insights, and predictive business intelligence.
 
-![Dashboard](screenshots/dashboard.png)
+![Assistant](screenshots/assistant.png)
 
 ---
 
@@ -27,23 +27,7 @@ Interactive enterprise intelligence dashboard with AI powered KPI monitoring, cu
 
 Advanced enterprise analytics visualizations including customer segmentation, sales conversion analysis, operational efficiency metrics, and employee productivity insights.
 
-![Analytics](screenshots/analytics.png)
-
----
-
-## AI Forecasting Engine
-
-Machine learning powered revenue forecasting engine using predictive analytics and linear regression models to estimate future business performance trends.
-
 ![Forecasting](screenshots/forecasting.png)
-
----
-
-## Enterprise AI Assistant
-
-Interactive enterprise assistant capable of answering executive business intelligence questions based on enterprise datasets and operational metrics.
-
-![Assistant](screenshots/assistant.png)
 
 ---
 
@@ -59,7 +43,7 @@ Integrated OpenAI powered executive reporting system capable of generating strat
 
 Enterprise organizations generate large amounts of operational, customer, sales, and financial data daily. Extracting actionable intelligence from this data is essential for strategic business decision making.
 
-This project simulates a real-world enterprise AI analytics system capable of:
+This project simulates a real world enterprise AI analytics system capable of:
 
 - Analyzing enterprise business performance
 - Predicting customer revenue
@@ -260,6 +244,7 @@ Responsible for deployment workflows, hosting, repository management, and cloud 
 - Git
 - GitHub
 - Streamlit Cloud
+- Docker
 
 ### Responsibilities
 - Cloud deployment
@@ -267,6 +252,7 @@ Responsible for deployment workflows, hosting, repository management, and cloud 
 - Repository workflows
 - Public application hosting
 - Deployment scalability
+- Containerization support
 
 ---
 
@@ -284,6 +270,7 @@ Responsible for deployment workflows, hosting, repository management, and cloud 
 - Git
 - GitHub
 - Streamlit Cloud
+- Docker
 
 ---
 
@@ -300,10 +287,8 @@ enterprise-ai-insights-assistant/
 │   └── sales.csv
 │
 ├── screenshots/
-│   ├── dashboard.png
-│   ├── analytics.png
-│   ├── forecasting.png
 │   ├── assistant.png
+│   ├── forecasting.png
 │   └── openai.png
 │
 ├── ai_enterprise.db
@@ -312,6 +297,7 @@ enterprise-ai-insights-assistant/
 ├── generate_dataset.py
 ├── main.py
 ├── requirements.txt
+├── Dockerfile
 ├── README.md
 ├── .gitignore
 └── .env
@@ -404,9 +390,9 @@ The platform demonstrates:
 # Future Improvements
 
 Planned future upgrades include:
-- Real-time enterprise APIs
+- Real time enterprise APIs
 - Authentication systems
-- Multi-user support
+- Multi user support
 - NLP powered conversational AI
 - Advanced forecasting models
 - AI anomaly detection
